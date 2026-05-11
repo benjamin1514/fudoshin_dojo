@@ -1002,38 +1002,35 @@ footer a {
     transform: none;
 }
 
- .day-tabs {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 1.5rem;
-        }
+.day-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 1.5rem;
+}
 
-        .day-btn {
-            padding: 8px 20px;
-            border-radius: 6px;
-            font-size: 14px;
-            font-weight: 500;
-            cursor: pointer;
-            border: 1px solid #ccc;
-            background: #fff;
-            color: #333;
-            transition: all 0.2s;
-        }
+.day-btn {
+    padding: 9px 22px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #1a1a1a;
+    background: #ffffff;
+    color: #1a1a1a;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: background 0.18s, color 0.18s, border-color 0.18s;
+}
 
-        .day-btn:hover {
-            border-color: #888;
-        }
+.day-btn:hover {
+    background: #1a1a1a;
+    color: #ffffff;
+    border-color: #1a1a1a;
+}
 
-        .day-btn.active {
-            background: #222;
-            color: #fff;
-            border-color: #222;
-        }
-
-        #empty-msg {
-            text-align: center;
-            padding: 2rem;
-            color: #888;
-            font-size: 14px;
-        }
+.day-btn.active {
+    background: #cc0000;
+    color: #ffffff;
+    border-color: #cc0000;
+}
